@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lOGIN</title>
+</head>
+
+<body>
+   
+        <!-- <h1 style="color: black;">REMINDER APPLICATION</h1> -->
+        <div class="container" style="margin-top: 20px;background-color: black;">
+            <div class="row g-0" style="border-radius: 30px;background-color: white;"><!--g-0 means gutter-0 to remove spaces between 2 columns-->
+                <div class="col-lg-5"style= "background-color:rgb(213, 213, 213);" >
+                    <img src={{image}} style="width:100%;height: 500px; "class="img-fluid">
+                </div>
+                <!-- string interpolation -->
+                <div class="col-lg-7 p-4">
+                    <h1 style="color:black">LOGIN</h1>
+                    <h4>Sign in to your account</h4>
+                    <form [formGroup]="loginform" (ngSubmit)="login()">
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input id="userid" name="userid" placeholder="userid" type="text" class="form-control my-3 p-3"
+                                    formControlName="userid"><br>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input id="pswd" name="pswd" placeholder="password" type="text" class="form-control my-3 p-3"
+                                    formControlName="password">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button class="btn1" type="submit">LOGIN</button>
+                               
+                            </div>
+                        </div>
+                        <span>New to Reminderapp? please register below</span><br>
+                        <a routerLink="register">REGISTER NOW</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+   
+
+</body>
+
+
+</html>

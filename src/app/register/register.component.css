@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+}
+
+input{
+    margin-top: 10px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 50%;
+}
+.container{
+    height:400px;
+   border: 1px solid white;
+   padding: 30px;
+   margin: auto;
+   width:70%;
+ 
+}
+.btn1{
+  
+  outline:none;
+  border:none;
+  font-weight: bold;
+  height: 50px;
+width: 100px;
+background-color: red;
+text-transform: uppercase;
+
+}

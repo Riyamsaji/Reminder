@@ -1,0 +1,15 @@
+<h1 class="text-center">ALL EVENTS</h1>
+<table style="margin:auto" class="table table-success table-striped responsive">
+    <thead>
+<tr>
+    <th>DATE</th>
+    <th>EVENT NAME</th>
+</tr>
+    </thead>
+    <tbody >
+        <tr *ngFor="let event of events">
+            <th>{{event.name}}</th>
+            <th>{{event.date}}</th>
+        </tr>
+    </tbody>
+</table>

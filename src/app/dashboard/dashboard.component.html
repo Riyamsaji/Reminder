@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section1">
+            <h1 class="text-white text-center">DASHBOARD</h1>
+            <form [formGroup]="addEventform" (ngSubmit)="addEvent()">
+                <div class="form-row">
+                    <div class="col-lg-12">
+                        <input type="text" placeholder="date" class="form-control p-2 my-5" formControlName="date">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-12">
+                        <input type="text" placeholder="event name" class="form-control p-2 my-4"
+                            formControlName="name">
+                    </div>
+                </div>
+                <div class="row ">
+                   
+                    <div class="col-lg-2">
+                        <button type="submit" class="btn1"><i class="fas fa-plus">ADD EVENT</i></button>
+                    </div>
+                    <div class="col-lg-4"></div>
+               
+              <div class="col-lg-3"></div>
+                    <div class="col-lg-3 mx-auto">
+                        <a routerLink="/event">VIEW ALL EVENTS</a>
+                    </div>
+        
+                </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

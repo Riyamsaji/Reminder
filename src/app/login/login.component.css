@@ -1,0 +1,56 @@
+
+body{
+    background-color:black;
+    height: 650px;
+    margin-top:0
+}
+
+h1{
+ 
+ text-align: center;
+ color:white
+}
+
+
+input{
+    
+    background-color:whitesmoke;
+}
+
+.btn1{
+   border:none;
+   outline: none;
+   height: 50px;
+   width: 100%;
+   color:white;
+   background-color: black;
+   font-weight: bold;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   margin-bottom: 20px;
+   
+}
+.btn1:hover{
+    border: 1px solid black;
+    color:black;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 20px;
+   
+    color: black;
+    font-weight: bold;
+
+}
+
+span{
+    margin-top:40px;
+    color:black;
+}
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* object-fit:contain; */
+}
